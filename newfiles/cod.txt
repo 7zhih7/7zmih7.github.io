@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="https://www.meme-arsenal.com/memes/52c53c426b6ed63cebd25b049ccefff9.jpg" type="image">
+<title>♂GYM music♂.com</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+body {
+background-image: url("images/fon.jpg ");
+background-repeat: no-repeat;
+background-position: all;
+background-size: cover;
+}
+h1 {
+color: #FF00FF;
+font-family: Comic Sans MS;
+font-style: italic;
+}
+p {
+color: #FF00FF;
+font-family: Comic Sans MS;
+font-style: italic;
+}
+input {
+  color: #FF00FF;
+}
+input {
+  left: 0px;
+  background-image:url("images/fon.jpg ");
+}
+button {
+    right: 0px;
+    background: #00FF7F;
+header {
+     background: #00BFFF;
+     width: 100%;
+     height: 55px;
+}
+footer {
+    background: #00BFFF;
+	width: 100%;
+	height: 40px;
+}
+</style>
+<body>
+<div id="header">
+<h1 align="center">header (шапка сайта)</h1>
+<form action="" method="get" align="center">
+<input name="s" placeholder="♂Take it boy♂" type="search">
+<button type="submit">Spank</button>
+</form>
+</div>
+<h1 align="center" ><big>Топ ♂Гачи♂ ремиксов</big></h1>
+  <h1 align="center" > A4 Right Version</h1>
+<p align="center" ><audio controls>
+    <source src="audio/A4.mp3" type="audio/mp3; codecs=vorbis"  controls="controls">
+    <source src="audio/A4.mp3" type="audio/mpeg">
+    Тег audio не поддерживается вашим браузером. 
+    <a href="audio/A4.mp3" download="" >Скачайте музыку</a>
+  </audio>
+  <h1 align="center" > 100-7 Right Version</h1>
+<p align="center" ><audio controls>
+    <source src="audio/1000-7.mp3" type="audio/mp3; codecs=vorbis"  controls="controls">
+    <source src="audio/1000-7.mp3" type="audio/mpeg">
+    Тег audio не поддерживается вашим браузером. 
+    <a href="audio/1000-7.mp3" download="" >Скачайте музыку</a>
+  </audio></p>
+  <h1 align="center" > Gorilla Right Version</h1>
+<p align="center" ><audio controls>
+    <source src="audio/Gorilla.mp3" type="audio/mp3; codecs=vorbis"  controls="controls">
+    <source src="audio/Gorilla.mp3" type="audio/mpeg">
+    Тег audio не поддерживается вашим браузером. 
+    <a href="audio/Gorilla.mp3" download="" >Скачайте музыку</a>
+  </audio></p>
+  <h1 align="center" > Astral Step Right Version</h1>
+<p align="center" ><audio controls>
+    <source src="audio/astral step.mp3" type="audio/mp3; codecs=vorbis"  controls="controls">
+    <source src="audio/astral step.mp3" type="audio/mpeg">
+    Тег audio не поддерживается вашим браузером. 
+    <a href="audio/astral step.mp3" download="" > Скачайте музыку</a>
+  </audio></p>
+  <h1 align="center" > Barby Girl Right Version</h1>
+<p align="center" ><audio controls>
+    <source src="audio/Barbi girl.mp3" type="audio/mp3; codecs=vorbis"  controls="controls">
+    <source src="audio/Barbi girl.mp3" type="audio/mpeg">
+    Тег audio не поддерживается вашим браузером. 
+    <a href="audio/Barbi girl.mp3" download="" > Скачайте музыку</a>
+  </audio></p>
+  <h1 align="center" > Cadillac Right Version</h1>
+<p align="center" ><audio controls>
+    <source src="audio/Cadillac.mp3" type="audio/mp3; codecs=vorbis"  controls="controls">
+    <source src="audio/Cadillac.mp3" type="audio/mpeg">
+    Тег audio не поддерживается вашим браузером. 
+    <a href="audio/Cadillac.mp3" download="" > Скачайте музыку</a>
+  </audio></p>
+  <h1 align="center" > El Problema Right Version</h1>
+<p align="center" ><audio controls>
+    <source src="audio/El problema.mp3" type="audio/mp3; codecs=vorbis"  controls="controls">
+    <source src="audio/El problema.mp3" type="audio/mpeg">
+    Тег audio не поддерживается вашим браузером. 
+    <a href="audio/El problema.mp3" download="" > Скачайте музыку</a>
+  </audio></p>
+  <h1 align="center" > Фиксики Right Version</h1>
+  <p align="center" ><audio controls>
+    <source src="audio/Fixsiki.mp3" type="audio/mp3; codecs=vorbis"  controls="controls">
+    <source src="audio/Fixsiki.mp3" type="audio/mpeg">
+    Тег audio не поддерживается вашим браузером. 
+    <a href="audio/Fixsiki.mp3" download="" > Скачайте музыку</a>
+  </audio></p>
+  <h1 align="center" > ICE morgen. Right Version</h1>
+  <p align="center" ><audio controls>
+    <source src="audio/ICE morgen.mp3" type="audio/mp3; codecs=vorbis"  controls="controls">
+    <source src="audio/ICE morgen.mp3" type="audio/mpeg">
+    Тег audio не поддерживается вашим браузером. 
+    <a href="audio/ICE morgen.mp3" download="" > Скачайте музыку</a>
+  </audio></p>
+  <h1 align="center" > Shadownraze Right Version</h1>
+  <p align="center" ><audio controls>
+    <source src="audio/shadownraze.mp3" type="audio/mp3; codecs=vorbis"  controls="controls">
+    <source src="audio/shadownraze.mp3" type="audio/mpeg">
+    Тег audio не поддерживается вашим браузером. 
+    <a href="audio/shadownraze.mp3" download="" > Скачайте музыку</a>
+  </audio></p>
+  <h1 align="center" > Vinxs Right Version</h1>
+  <p align="center" ><audio controls>
+    <source src="audio/vinxs.mp3" type="audio/mp3; codecs=vorbis"  controls="controls">
+    <source src="audio/vinxs.mp3" type="audio/mpeg">
+    Тег audio не поддерживается вашим браузером. 
+    <a href="audio/vinxs.mp3" download="" > Скачайте музыку</a>
+  </audio></p>
+<div id="footer">
+	<h2 align="center">footer (низ сайта)</h2>
+	</div>
+</body>
+</html>
