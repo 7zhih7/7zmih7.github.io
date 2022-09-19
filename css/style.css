@@ -2,6 +2,8 @@
 body {
 background-image: url("images/fon.jpg ");
 background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
 h1 {
 color: #00FA9A;
