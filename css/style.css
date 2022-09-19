@@ -1,14 +1,43 @@
 <style>
 body {
-background-image: url("https://www.meme-arsenal.com/memes/48285af89c1e07cec68fe46630642bd6.jpg ");
+background-image: url("images/fon.jpg ");
 background-repeat: no-repeat;
 background-position: all;
 background-size: cover;
-} 
+}
 h1 {
+color: #000000;
+font-family: Courier New;
+font-style: italic;
+}
+p {
+color: #000000;
+font-family: Courier New;
+font-style: italic;
+}
+header {
+     background: #000000;
+     width: 100%;
+     height: 55px;
+}
+footer {
+    background: #000000;
+	width: 100%;
+	height: 40px;
+}
+h2 {
 color: #FF00FF;
 }
-ul li {
-color: #800080;
+table, td {
+            border: 1px;
+}
+table {
+            border-collapse: collapse;
+}
+td {
+            padding: 20px;
+}
+.myTable {
+        margin: auto;
 }
 </style>
