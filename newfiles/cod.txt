@@ -130,7 +130,7 @@ footer {
     <a href="audio/vinxs.mp3" download="" > Скачайте музыку</a>
   </audio></p>
 <div id="footer">
-	<h2 align="center">footer (низ сайта)</h2>
+	<h2 align="center">Вк</h2>
 	</div>
 </body>
 </html>
