@@ -50,8 +50,34 @@ td {
 .myTable {
         margin: auto;
 }
+	#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-image: url("F:/Миши/Гачи музыка/images/privet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 999;
+    -webkit-animation: fade .6s;
+    -moz-animation: fade .6s;
+    animation: fade .6s;
+    overflow: auto;
+}
 </style>
 <body>
+	<div id="overlay">
+		<div class="popup">
+<button class="close" title="Закрыть" onclick="document.getElementById('overlay').style.display='none';"></button>
+	</div>
+</div>
+<script type="text/javascript">
+        var delay_popup = 100;
+        setTimeout("document.getElementById('overlay').style.display='block'", delay_popup);
+</script>
 <div id="header">
 <h1 align="center">Сайт с лучшими ♂Гачи♂ ремиксами </h1>
 	
