@@ -33,14 +33,6 @@ to {
 left: calc(100% - 450px);
  }
 }
-.text1 {
-animation: go-left-right 7s infinite alternate;
--webkit-animation: go-left-right 7s infinite alternate;
-    position: relative;
-    width: 500px;
-    height: 10px;
-    background: rgba(205, 214, 219, 0);
-}
 #container {
      background: rgba(205, 214, 219, 0);
      margin: auto auto;
@@ -77,9 +69,20 @@ animation: go-left-right 7s infinite alternate;
 a {
 color: #00FA9A;
 }
+table, td {
+            border: 1px;
+}
+table {
+            border-collapse: collapse;
+}
+td {
+            padding: 10px;
+}
 .myTable {
         margin: auto;
+        color: #00FA9A;
 }
+
 #overlay {
     position: fixed;
     top: 0;
@@ -96,9 +99,6 @@ color: #00FA9A;
     -moz-animation: fade .6s;
     animation: fade .6s;
     overflow: auto;
-}
-.myTable {
-        margin: auto;
 }
 /* кнопка закрытия дисклеймера */
 .close {
@@ -210,37 +210,62 @@ color: #00FA9A;
 <a href="audio/shadowraze.mp3" download="" > Скачайте музыку</a>
 </audio></p>
 <hr>
-<h1 align="right">Топ 5 Гачи ремиксов</h1>
-<h3 align="left"> №1</h3>
-<h4 align="left"> Barbi girl</h4><p align="left" ><audio controls>
+<h1 align="right">Топ 10 Гачи ремиксов</h1>
+<h1 align="left"> №1</h1>
+<table class="myTable">
+<tr>
+<td><h2 align="left">Barbi girl</h2></td>
+<td><p align="left" ><audio controls>
 <source src="top/Barbi girl.mp3" type="audio/mp3; codecs=vorbis"  controls="controls">
 <source src="top/Barbi girl.mp3" type="audio/mpeg">
 <a href="top/Barbi girl.mp3" download="" > Скачайте музыку</a>
-</audio></p>
-<h3 align="left"> №2</h3>
-<h4 align="left"> Gorilla</h4><p align="left" ><audio controls>
+</audio></p></td>
+</tr>
+</table>
+<h1 align="left"> №2</h1><
+<table class="myTable">
+<tr>
+<td><h2 align="left">Gorilla</h2></td>
+<td><p align="left" ><audio controls>
 <source src="top/Gorilla.mp3" type="audio/mp3; codecs=vorbis"  controls="controls">
 <source src="top/Gorilla.mp3" type="audio/mpeg">
 <a href="top/Gorilla.mp3" download="" > Скачайте музыку</a>
-</audio></p>
-<h3 align="left"> №3</h3>
-<h4 align="left"> astral step</h4><p align="left" ><audio controls>
+</audio></p></td>
+</tr>
+</table>
+<h1 align="left"> №3</h1>
+<table class="myTable">
+<tr>
+<td><h2 align="left">astral step</h2></td>
+<td><p align="left" ><audio controls>
 <source src="top/astral step.mp3" type="audio/mp3; codecs=vorbis"  controls="controls">
 <source src="top/astral step.mp3" type="audio/mpeg">
 <a href="top/astral step.mp3" download="" > Скачайте музыку</a>
-</audio></p>
-<h3 align="left"> №4</h3>
-<h4 align="left"> 1000-7</h4><p align="left" ><audio controls>
+</audio></p></td>
+</tr>
+</table>
+<h1 align="left"> №4</h1>
+<table class="myTable">
+<tr>
+<td><h1 align="left">1000-7</h1></td>
+<td><p align="left" ><audio controls>
 <source src="top/1000-7.mp3" type="audio/mp3; codecs=vorbis"  controls="controls">
 <source src="top/1000-7.mp3" type="audio/mpeg">
 <a href="top/1000-7.mp3" download="" > Скачайте музыку</a>
-</audio></p>
-<h3 align="left"> №5</h3>
-<h4 align="left"> Shadowraze Right Version</h4><p align="left" ><audio controls>
+</audio></p></td>
+</tr>
+</table>
+<h1 align="left"> №5</h1>
+<table class="myTable">
+<tr>
+<td><h2 align="left">shadowraze</h2></td>
+<td><p align="left" ><audio controls>
 <source src="top/shadowraze.mp3" type="audio/mp3; codecs=vorbis"  controls="controls">
 <source src="top/shadowraze.mp3" type="audio/mpeg">
 <a href="top/shadowraze.mp3" download="" > Скачайте музыку</a>
-</audio></p>
+</audio></p></td>
+</tr>
+</table>
 	</div>	 
 	<div id="clear">
 	</div>	
