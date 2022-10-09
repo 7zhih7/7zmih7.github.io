@@ -195,6 +195,10 @@ table tr {padding: 20px 20px;}
   background-size: 2em 2em;
   background-repeat: repeat-x;
 }
+#loginout {
+table td {padding: 5px 5px;}
+table tr {padding: 5px 5px;}	
+	}
 </style>
 <body>
 <div id="overlay">
@@ -223,14 +227,14 @@ table tr {padding: 20px 20px;}
 	</div>		 
 	<div id="sidebar">
 <form method="post" action="/login/">
-    <table>
+    <table class="loginout">
         <tr>
-            <td><label for="loginField">Логин</label></td>
+            <td align="left"><label for="loginField">Логин</label></td>
 	<tr>
             <td><input id="loginField" type="text" name="login"></td>
         </tr>
         <tr>
-            <td><label for="passwordField">Пароль</label></td>
+            <td align="left"><label for="passwordField">Пароль</label></td>
 		<tr>
             <td><input id="passwordField" type="password" name="password"></td>
         </tr>
