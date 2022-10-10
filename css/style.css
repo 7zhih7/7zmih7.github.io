@@ -1,46 +1,186 @@
-<style>
 body {
 background-image: url("images/fon.jpg ");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-}
-h1 {
 color: #00FA9A;
-font-family: Courier New;
-font-style: italic;
-}
-p {
-color: #00FA9A;
-font-family: Courier New;
-font-style: italic;
-}
-h2 {
-color: #00FA9A;
-}
-header {
-     background: #000000;
+} 
+#header {
+     background: rgba(205, 214, 219, 0);
+     color: #00FA9A;
      width: 100%;
-     height: 55px;
+     height: 50px;
 }
-footer {
-    background: #000000;
-	width: 100%;
-	height: 40px;
+@-webkit-keyframes go-left-right {
+from {
+left: 0px;
+  }
+to {
+left: calc(100% - 450px);
+ }
 }
-h2 {
+.text1 {
+animation: go-left-right 7s infinite alternate;
+-webkit-animation: go-left-right 7s infinite alternate;
+    position: relative;
+    width: 500px;
+    height: 10px;
+    background: rgba(205, 214, 219, 0);
+}
+#container {
+     background: rgba(205, 214, 219, 0);
+     margin: auto auto;
+     text-align: center;
+     width: 85%;
+     height: 6000px;
+}
+#navigation {
+     background: rgba(205, 214, 219, 0);
+     width: 100%;
+     height: 150px;
+}
+#sidebar {
+     background: rgba(205, 214, 219, 0);
+     float: right;
+     width: 15%;
+     height: 5200px;
+}
+#content {
+     background: rgba(205, 214, 219, 0);
+     float: left;
+     width: 84%;
+     height: 5200px;
+}
+#clear {
+     clear: both;
+}
+ 
+#footer {
+    background: rgba(205, 214, 219, 0);
+    width: 100%;
+    height: 40px;
+}
+a {
 color: #00FA9A;
-}
-table, td {
-            border: 1px;
-}
-table {
-            border-collapse: collapse;
-}
-td {
-            padding: 20px;
 }
 .myTable {
-        margin: auto;
+        margin: left;
+        color: #00FA9A;
 }
-</style>
+table td {padding: 20px 20px;}
+table tr {padding: 20px 20px;}
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/privet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 999;
+    -webkit-animation: fade .6s;
+    -moz-animation: fade .6s;
+    animation: fade .6s;
+    overflow: auto;
+}
+/* кнопка закрытия дисклеймера */
+.close {
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    border: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.9);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    outline: none;
+}
+.close:before {
+    color: rgba(255, 255, 255, 0.9);
+    content: "X";
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+/* кнопка закрытия при наведении */
+.close:hover {
+    background-color: rgba(252, 20, 0, 0.8);
+}
+/* кнопка закрытия дисклеймера */
+.star-ratio {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 2em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  font-size: 1em;
+}
+
+.ratio {
+  width: 10em;
+  height: 2em;
+  position: relative;
+  background: url(https://i.stack.imgur.com/HYO64.png);
+  background-size: 2em 2em;
+  background-repeat: repeat-x;
+}
+
+.star-ratio:nth-of-type(1) {
+  width: 2em;
+  z-index: 5;
+}
+
+.star-ratio:nth-of-type(2) {
+  width: 4em;
+  z-index: 4;
+}
+
+.star-ratio:nth-of-type(3) {
+  width: 6em;
+  z-index: 3;
+}
+
+.star-ratio:nth-of-type(4) {
+  width: 8em;
+  z-index: 2;
+}
+
+.star-ratio:nth-of-type(5) {
+  width: 10em;
+  z-index: 1;
+}
+
+.star-ratio:checked,
+.star-ratio:hover {
+  background: url(https://i.stack.imgur.com/XV18m.png);
+  background-size: 2em 2em;
+  background-repeat: repeat-x;
+}
+
+.star-ratio:hover~.star-ratio {
+  background: url(https://i.stack.imgur.com/HYO64.png);
+  background-size: 2em 2em;
+  background-repeat: repeat-x;
+}
+#loginout {
+	padding: 5px 5px;	
+	}
